@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+}
+.main{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/*header*/
+    /*barre de navigation*/
+.navlogo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #8d4c50;
+}
+.navlogo nav{
+    width: 80%;
+    font-size: 230%;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.nav :hover{
+    color: #ffffff;
+}
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    width: 10%;
+    padding-left: 3%;
+    text-align: center;
+}
+/*/header*/
+
+/*photo*/
+.photo{
+    margin: 0%;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    background-color: #212738;
+}
+.photo img{
+    border-radius: 50%;
+    display: flex;
+    height: 80%;
+    align-self: center;
+}
+/*/photo*/
+/*section .main*/
+    /*nom & prénom, métier visé et résaux*/
+.resaux{
+    display: flex;
+    flex-direction: column;
+}
+.resaux h1{
+    text-align: center;
+    margin: 0%;
+    font-size: 3em;
+    background-color: #8d4c50;
+}
+.resaux h2{
+    text-align: center;
+    margin: 0%;
+    font-size: 2em;
+    background-color: #8d4c50;
+}
+.resaux section{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-color: #8d4c50;
+}
+.resaux figure{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 170%;
+}
+.resaux a{
+    text-decoration: none;
+    padding: 0%;
+    color: wheat;
+}
+.resaux a :hover{
+    color: #ffffff;
+}
+.resaux img{
+    width: 50%;
+    align-self: center;
+}
+#fb{
+    width: 45%;
+}
+.CVpapier{
+    display: flex;
+    justify-content: end;
+    background-color: #212738;
+}
+.CVpapier p{
+    text-align: center;
+    width: 8%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #8d4c50;
+    border-radius: 3em;
+}
+    /*/section photo + résaux*/
+
