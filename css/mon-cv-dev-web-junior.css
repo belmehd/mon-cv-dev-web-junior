@@ -28,6 +28,10 @@ body{
     justify-content: space-around;
     font-family: 'Merriweather Sans', sans-serif;
 }
+.nav a{
+    text-decoration: none;
+    color: wheat;
+}
 .nav :hover{
     color: #ffffff;
 }
@@ -54,8 +58,11 @@ body{
     align-self: center;
 }
 /*/photo*/
+
 /*section .main*/
+
     /*nom & prénom, métier visé et résaux*/
+
 .resaux{
     display: flex;
     flex-direction: column;
@@ -101,20 +108,33 @@ body{
 }
 .CVpapier{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     background-color: #212738;
 }
-.CVpapier p{
+.CVpapier a{
+    width: 18%;
+    justify-content: center;
+}
+.CVpapier span{
     text-align: center;
-    width: 8%;
     margin: 1%;
     padding: 1%;
     background-color: #8d4c50;
     border-radius: 3em;
     border: 5px double;
 }
+.resaux p{
+    background-color: #212738;
+    display: flex;
+    justify-content: end;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 2%;
+}
     /*/section photo + résaux*/
+
     /*section A propos*/
+
 .apropos{
     margin: 0%;
     padding-bottom: 5%;
@@ -129,32 +149,45 @@ body{
 .apropos h2{
     font-size: 250%;
     margin-top: 0%;
+    padding-top: 4%;
+}
+.apropos span{
+    text-align: left;
 }
     /*/section A propos*/
+
     /*section competence*/
-.competence{
+
+.competences{
     display: flex;
     flex-direction: column;
     background-color: #8d4c50;
 }
-.competence h2{
+.competences h2{
     text-align: center;
     margin: 0%;
     font-size: 300%;
+    padding-top: 4%;
 }
-.competence ul{
+.competences ul{
     display: flex;
     justify-content: space-around;
     width: 100%;
     list-style-type: disclosure-closed;
     font-size: 150%;
+    flex-wrap: wrap;
+}
+.competences li{
+    width: 50%;
+    margin-bottom: 3%;
 }
 .a{
     display: flex;
     height: 4em;
     justify-content: space-around;
+    margin: 4%;
 }
-.html{
+.competence{
     margin: 0%;
     width: 20%;
     border: 2px solid;
@@ -163,10 +196,150 @@ body{
     align-items: center;
     height: 100%;
 }
-.html figcaption{
+.sassjs{
+    width: 4em;
+    background-color: coral;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 4%;
+    width: 0.3em;
+    background-color: #212738;
+}
+.figcp{
     align-items: center;
     width: 7em;
     background-color: coral;
     display: flex;
-    height: 100%
+    height: 100%;
+    padding-left: 4%;
+    background-color: #212738;
 }
+    /*/section competences*/
+
+    /*section realisations*/
+
+.realisations{
+    background-color: #212738;
+    padding-bottom: 4%;
+}
+.realisations h2{
+    text-align: center;
+    font-size: 300%;
+    padding: 4%;
+    margin: 0%;
+}
+.realisations img{
+    width: 25em;
+    height: 20em;
+    border-radius: 3em;
+}
+.realisations figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.realisations figcaption{
+    text-align: center;
+    color: wheat;
+    font-size: 1.5em;
+}
+.realisations a{
+    width: 25%;
+    text-decoration: none;
+}
+.lien1, .lien2{
+    display: flex;
+    justify-content: space-around;
+}
+.imgsitetp{
+    margin-top: 10%;
+}
+    /*/section realisations*/
+
+    /*section etude*/
+
+.etudes{
+    background-color: wheat;
+    color: #8d4c50;
+}
+.etudes h2{
+    font-size: 300%;
+    text-align: center;
+    margin: 0%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.etudes ul{
+    width: 100%;
+    font-size: 150%;
+    display: flex;
+    list-style-type: decimal;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+}
+.etudes li{
+    width: 35%;
+    margin-bottom: 4%;
+}
+    /*/section etude*/
+
+    /*section experiences*/
+
+.experiences{
+    background-color: #8d4c50;
+    color: wheat;
+}
+.experiences h2{
+    font-size: 300%;
+    text-align: center;
+    margin: 0%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.experiences ul{
+    display: flex;
+    width: 100%;
+    font-size: 150%;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+}
+.experiences li{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.experiences span{
+    width: 75%;
+}
+    /*/section experiences*/
+
+    /*footer*/
+
+footer{
+    display: flex;
+    background-color: #212738;
+    color: wheat;
+    font-size: 150%;
+}
+footer span{
+    font-weight: bold;
+}
+footer p{
+    width: 33%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.left{
+    margin-left: 3%;
+}
+.right{
+    margin-right: 3%;
+}
+
