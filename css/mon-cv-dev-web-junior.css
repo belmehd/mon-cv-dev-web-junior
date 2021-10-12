@@ -20,7 +20,15 @@ body{
 }
 .navlogo nav{
     width: 80%;
-    font-size: 230%;
+    align-self: center;
+}
+.nav li{
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+}
+.nav a{
+    width: 14%;
 }
 .nav{
     display: flex;
@@ -162,6 +170,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #8d4c50;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .competences h2{
     text-align: center;
@@ -208,7 +218,7 @@ body{
 }
 .figcp{
     align-items: center;
-    width: 7em;
+    width: 60%;
     background-color: coral;
     display: flex;
     height: 100%;
@@ -290,6 +300,7 @@ body{
 .experiences{
     background-color: #8d4c50;
     color: wheat;
+    padding-right: 3%;
 }
 .experiences h2{
     font-size: 300%;
@@ -341,5 +352,67 @@ footer p{
 }
 .right{
     margin-right: 3%;
+}
+
+@media screen and (max-width: 1280px) {
+    .nav li{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .nav a{
+        width: 28%;
+        margin-bottom: 1%;
+    }
+    .nav{
+        flex-wrap: wrap;
+    }
+    .competences{
+        flex-direction: column;
+    }
+    .competences ul{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .a{
+        align-items: center;
+        flex-direction: column;
+        margin: 6%;
+    }
+    .competence{
+        margin: 3%;
+        width: 65%;
+        align-items: center;
+    }
+    .lien1, .lien2{
+        flex-direction: column;
+    }
+    .realisations a{
+        width: 100%;
+    }
+    .etudes ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+    }
+    .etudes li{
+        width: 75%;
+    }
+    .experiences li{
+        flex-direction: column;
+        text-align: center;
+    }
+    .experiences span{
+        margin: 1%;
+    }
+    footer{
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer p{
+        width: 100%;
+    }
 }
 
