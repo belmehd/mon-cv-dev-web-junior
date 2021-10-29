@@ -255,12 +255,13 @@ body{
     font-size: 1.5em;
 }
 .realisations a{
-    width: 25%;
+    width: 50%;
     text-decoration: none;
 }
 .lien1, .lien2{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .imgsitetp{
     margin-top: 10%;
